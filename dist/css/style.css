@@ -2452,7 +2452,7 @@ h3 {
   }
 
   .reviews__name-tourname {
-    gap: 5px;
+    gap: 6px;
   }
 
   .reviews__reviewer-info {
@@ -2493,7 +2493,7 @@ h3 {
   }
 
   .reviews__name-tourname .p-small {
-    letter-spacing: -0.6px;
+    letter-spacing: -0.1px;
     font-size: 16px;
   }
 
