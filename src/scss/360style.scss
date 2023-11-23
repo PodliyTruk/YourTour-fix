@@ -1,0 +1,117 @@
+@media (max-width: 361px) {
+    .header {
+        width: 360px;
+        margin-bottom: 75px;
+        .block-button {
+            bottom: 0;
+            button:hover {
+                background-color: white;
+                color: black;
+            }
+            button:active {
+                background-color: white;
+                color: black;
+            }
+        }
+        
+    }
+    p {
+        font-size: 16px;
+    }
+    .secondary-header {
+        font-size: 35px;
+        line-height: 112%;
+    }
+    .header__menu {
+        width: inherit;
+        .menu__side-info {
+            width: 320px;
+            gap: 30px;
+        }
+    }
+    h3 {
+        font-size: 23px;
+        letter-spacing: 0.9px;
+    }
+    .p-big {
+        font-size: 16px;
+        line-height: 144%;
+    }
+    .p-small {
+        letter-spacing: 0.1px;
+        line-height: 118%;
+        font-size: 16px;
+    }
+    .page {
+        width: 360px;
+        gap: 74px;
+        
+        .container {
+            width: 318px;
+            gap: 40px;
+            
+            .more-arrow {
+                right: -16%;
+            }
+            
+            .tabs {
+                height: 2006px;
+                width: inherit;
+                gap: 10px;
+                top: 60px;
+            }
+            .tabs__content {
+                bottom: 112px;
+            }
+            .tabs__label {
+                
+                font-size: 16px;
+                bottom: 155px;
+                height: 20px;
+            }
+            .tabs__label-row-2 {
+                bottom: 152px;
+                position: relative;
+            }
+
+        }
+        .details-btn {
+            .p-big {
+                padding-top: 1px;
+            }
+        }    
+    }
+
+    
+    .section-header {
+        width: 318px;
+        gap: 20px;
+        p {
+            width: inherit;
+            font-size: 16px;
+        }
+    }
+    
+    // тут был travel-photosp
+    
+    .details-btn:hover {
+        background-color: transparent;
+        width: 163px;
+        // right: 0px;
+    }
+    .details-btn:active {
+        width: 163px;
+        background-color: transparent;
+        // padding-left: 0px;
+        // right: 0px;
+    }
+    .image-gradient {
+        border-radius: 20px;
+    }
+    
+    
+    .p-gray-normal {
+        font-size: 16px;    
+    }
+    
+}

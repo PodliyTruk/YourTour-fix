@@ -1,0 +1,108 @@
+<section class="create-tour">
+    <div class="create-tour__container">
+        
+        <div class="create-tour__info">
+            <h2 class="secondary-header">Собери свой тур</h2>
+            <p>Идейные соображения высшего порядка, а также рамки и место обучения кадров</p>
+        </div>
+        <div class="create-tour__grid">
+            <div class="create-tour__grid-row">
+                <div class="create-tour__grid-column">
+                    <form class="create-tour__form" action="">
+                        <p>Имя</p>
+                        <input class="create-tour__input" type="text" placeholder="Введите Ваше Имя">
+                    </form>
+                </div>
+                <div class="create-tour__grid-column">
+                    <form action="" class="create-tour__form">
+                        <p>Направление</p>
+                        <div class="select-direction__wrapper">
+                            <select name="select-direction" class="create-tour__select" id="mySelect">
+                                <option class="select-placeholder" value="blue" disabled selected hidden>Куда хотите ехать</option>
+                                <option value="1" class="select-item">Пункт выбран</option>
+                                <option value="2" class="select-item">Пункт выбран 2</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="create-tour__grid-row">
+                <div class="create-tour__grid-column">
+                    <form class="create-tour__form" action="">
+                        <p>Email</p>
+                        <input class="create-tour__input" type="text" placeholder="example@mail.com">
+                    </form>
+                </div>
+                <div class="create-tour__grid-column">
+                    <form class="create-tour__form" action="">
+                        <p>Телефон</p>
+                        <input class="create-tour__input" type="text" placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _">
+                    </form>
+                </div>
+            </div>
+            <div class="create-tour__grid-row">
+                <div class="create-tour__grid-column">
+                    <form class="create-tour__form" action="">
+                        <p>Дата от</p>
+                        <input class="create-tour__input" type="text" placeholder="ДД.ММ.ГГГГ">
+                    </form>
+                </div>
+                <div class="create-tour__grid-column">
+                    <form class="create-tour__form" action="">
+                        <p>Дата до</p>
+                        <input class="create-tour__input" type="text" placeholder="ДД.ММ.ГГГГ">
+                    </form>
+                </div>
+            </div>
+            <div class="create-tour__grid-row">
+                <div class="create-tour__grid-column create-tour__grid-column-commentary">
+                    <form class="create-tour__form" action="">
+                        <p>Комментарий</p>
+                        <textarea class="create-tour__textarea"></textarea>
+                    </form>
+                </div>
+            </div>
+            <div class="create-tour__grid-row">
+                <div class="create-tour__age-check">
+                    <form action="" class="create-tour__rbtn-form">
+                        <p>Вам есть 18 лет?</p>
+                            
+                                <fieldset class="create-tour__fieldset">
+                                    <label class="create-tour__rbtn_label">
+                                        <input class="create-tour__rbtn-input" id="yes" type="radio" name="age-check">
+                                        <span class="create-tour__custom-rbtn"></span>
+                                        <label for="yes">Да</label>
+                                    </label>    
+                                    <label class="create-tour__rbtn_label">
+                                        <input class="create-tour__rbtn-input" id="no" type="radio" name="age-check">
+                                        <span class="create-tour__custom-rbtn"></span>
+                                        <label for="no">Нет</label>
+                                    </label>
+                                </fieldset>                                                    
+                    </form>
+                </div>
+                
+            </div>
+            <div class="create-tour__grid-row">
+                <div class="create-tour__checkbox">
+                    <label class="create-tour__checkbox_label">
+                        <input class="create-tour__checkbox_input" type="checkbox">
+                        
+                        <span class="checkbox"></span>
+                        <p class="create-tour__checkbox-text">Нажимая кнопку, я принимаю условия 
+                        <a href="" class="create-tour__license-checkbox-link">Лицензионного договора</a></p>
+                    </label>
+                </div>
+            </div>
+            <div class="create-tour__grid-row">
+                <div class="create-tour__grid-column">
+                    <form class="create-tour__btns-form">
+                        <button class="create-tour__btn create-tour__btn-find">Найти тур</button>
+                        <button class="create-tour__btn create-tour__btn-reset">Сбросить</button>
+                    </form>
+                </div>
+            </div>                         
+        </div>
+    </div>
+</section>
+

@@ -1,0 +1,58 @@
+// .travel-history__new-grid-description-1 {
+//     color: #470000;
+// }
+
+// $containerWidth1024: 1070px;
+
+@media (max-width: 1026px) {
+    .header {
+        // width: 1024px;
+        // background-image: url("@img/header1024px.jpg");
+        .block-button {
+            bottom: -1px;
+        }
+        p {
+            // width: 442px;
+        }
+    }
+    .header__menu {
+        // width: inherit;
+        .menu__side-info {
+            // gap: 82.58px;
+        }
+        .menu__list {
+            gap: 30px;
+        }
+    }
+    .page {
+        // width: 1024px;
+        .container {
+            width: 918px;
+            .tabs {
+                height: 1629px;
+            }
+            .tabs__content {
+                bottom: 64px;
+            }
+           
+            
+        }
+    }
+
+
+    
+// тут был travel-photos
+
+
+    
+    .hidden-picture {
+        visibility: collapse;
+        display: none;
+    }
+    
+    
+
+    
+
+    
+}

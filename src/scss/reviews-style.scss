@@ -1,0 +1,253 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular,500,700&display=swap&subset=cyrillic-ext);
+
+*,*:before,*:after{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+* {
+    font-family: Roboto;
+}
+
+html, body {
+    height: 100%;
+    /* background-color: #333;
+     */
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    /* color: #fff; */
+    font-size: 16px;
+    line-height: 24px;
+}
+
+h3 {
+    /* .p-big {
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 122%;
+    } */
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 122%;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.p-big {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 122%;
+}
+
+.reviews__info {
+    margin: 0 auto;
+    max-width: 529px;
+    gap: 29px;
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews__info p {
+    width: 411px;
+    color: #a6a6a6;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 142%;
+    margin: 0 auto;
+}
+
+.secondary-header {
+    text-align: center;
+    line-height: 124%;
+    font-size: 59px;
+}
+
+
+
+.reviews__grid {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 98px 0px 0px 0px;
+    display: flex;
+    gap: 30px;
+
+}
+
+
+.reviews__grid-item {
+    flex: 0 1 50%;
+    position: relative;
+    min-height: 673px;
+    overflow: hidden;
+    background-color: #F4F0E9;
+    border-radius: 50px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    /* gap: ; */
+    justify-content: space-between;
+}
+
+.reviews__name-tourname {
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews__reviewer-info {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 62px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.reviews__reviewer-info img {
+    border-radius: 100px;
+    height: 75px;
+    width: 75px;
+}
+
+.reviews__reviewer-info h3 {
+    font-size: 35px;
+    line-height: 170%;
+    letter-spacing: -0.35px;
+    
+}
+.p-small {
+    font-size: 17px;
+    line-height: 142%;
+    letter-spacing: -0.1px;
+} 
+
+@media (max-width: 1192px) and (min-width: 1027px) {
+    .reviews__grid {
+        // max-width: 982px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 1026px) {
+    .reviews__grid {
+        max-width: 918px;
+        gap: 18px;
+    }
+
+    .reviews__info .secondary-header {
+        line-height: 123%;
+    }
+}
+
+@media (max-width: 1022px) {
+
+    .reviews__info .secondary-header {
+        font-size: calc(35px + (59 - 35) * ((100vw - 360px) / (1024 - 360)));
+        // line-height: 123%;
+        /* line-height: 116%;
+        letter-spacing: 0.9px; */
+    }
+
+    .reviews__grid {
+        padding: 98px 0px 21px 0px;
+        margin-left: 21px;
+        margin-right: 21px;
+    }
+
+    .p-big {
+        font-size: calc(16px + (23 - 16) * ((100vw - 360px) / (1024 - 360)));
+    }
+
+    .reviews__info p {
+        /* font-size: 16px; */
+        font-size: calc(16px + (20 - 16) * ((100vw - 360px) / (1024 - 360)));
+        /* width: 318px; */
+        // max-width: 100%;
+    }
+}
+
+@media (max-width: 670px) {
+    .reviews__grid {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 411px) {
+    .reviews__info p {
+        max-width: 318px;
+    }
+}
+
+@media (max-width: 361px) {
+
+    .reviews__name-tourname {
+        gap: 5px;
+
+    }
+
+    .reviews__reviewer-info {
+        padding-top: 40px;
+    }
+
+    .reviews__reviewer-info h3 {
+        font-size: 23px;
+        letter-spacing: 1.15px;
+    }
+
+    .reviews__grid {
+        flex-direction: column;
+        padding: 48px 0px 0px 0px;
+
+    }
+
+    .reviews__grid-item:nth-child(1) {
+        min-height: 408px;
+        max-height: 408px;
+    }
+
+    .reviews__grid-item:nth-child(2) {
+        min-height: 592px;
+        max-height: 592px;
+    }
+
+    .reviews__grid-item {
+        
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    // .reviews__reviewer-info {
+    //     /* padding-top: 56px; */
+    // }
+
+    .p-big {
+        font-size: 16px;
+        line-height: 144%;
+    }
+
+    .reviews__name-tourname .p-small {
+        letter-spacing: -0.6px;
+        font-size: 16px;
+    }
+
+    .reviews__info .secondary-header {
+        font-size: 34px;
+        line-height: 116%;
+        letter-spacing: 0.9px;
+    }
+
+    .reviews__info {
+        gap: 20px;
+        padding-top: 3px;
+    }
+
+    .reviews__info p {
+        font-size: 16px;
+        width: 318px;
+    }
+}
